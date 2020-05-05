@@ -19,8 +19,9 @@ export const Title = styled.h1`
 export const ImportFileContainer = styled.section`
   background: #fff;
   margin-top: 40px;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 64px;
+  box-shadow: 1px 1px 130px rgba(84, 53, 206, 0.03);
 `;
 
 export const Footer = styled.section`
@@ -42,15 +43,17 @@ export const Footer = styled.section`
   }
 
   button {
-    background: #ff872c;
+    background: #1d3557;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px 80px;
     border: 0;
     transition: background-color 0.2s;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left
+          bottom, from(transparent), color-stop(30%, transparent), to(rgba(250, 250, 250, 0.1)));
 
     &:hover {
-      background: ${shade(0.2, '#ff872c')};
+      background: ${shade(0.2, '#1d3557')};
     }
   }
 `;
