@@ -26,7 +26,7 @@ export const CardContainer = styled.section`
 export const Card = styled.div`
   padding: 22px 32px;
   border-radius: 15px;
-  box-shadow: 1px 1px 130px rgba(84, 53, 206, 0.1);
+  box-shadow: 1px 1px 130px rgba(84, 53, 206, 0.08);
   color: ${({ total }: CardProps): string => (total ? '#fff' : '#363F5F')};
   background: ${({ total }: CardProps): string => (total ? '#e63946' : '#fff')};
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent), to(rgba(250, 250, 250, 0.1)));
